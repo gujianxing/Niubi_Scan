@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F678EC9C1C474BEC008963F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678EC9B1C474BEC008963F8 /* AppDelegate.swift */; };
+		F678EC9E1C474BEC008963F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678EC9D1C474BEC008963F8 /* ViewController.swift */; };
+		F678ECA11C474BEC008963F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F678EC9F1C474BEC008963F8 /* Main.storyboard */; };
+		F678ECA31C474BEC008963F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F678ECA21C474BEC008963F8 /* Assets.xcassets */; };
+		F678ECA61C474BEC008963F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F678ECA41C474BEC008963F8 /* LaunchScreen.storyboard */; };
+		F678ECB11C474BEC008963F8 /* AVCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678ECB01C474BEC008963F8 /* AVCaptureTests.swift */; };
+		F678ECBC1C474BEC008963F8 /* AVCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678ECBB1C474BEC008963F8 /* AVCaptureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F678ECAD1C474BEC008963F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F678EC901C474BEA008963F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F678EC971C474BEA008963F8;
+			remoteInfo = AVCapture;
+		};
+		F678ECB81C474BEC008963F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F678EC901C474BEA008963F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F678EC971C474BEA008963F8;
+			remoteInfo = AVCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F678EC981C474BEA008963F8 /* AVCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F678EC9B1C474BEC008963F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F678EC9D1C474BEC008963F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F678ECA01C474BEC008963F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F678ECA21C474BEC008963F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F678ECA51C474BEC008963F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F678ECA71C474BEC008963F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F678ECAC1C474BEC008963F8 /* AVCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F678ECB01C474BEC008963F8 /* AVCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureTests.swift; sourceTree = "<group>"; };
+		F678ECB21C474BEC008963F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F678ECB71C474BEC008963F8 /* AVCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F678ECBB1C474BEC008963F8 /* AVCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureUITests.swift; sourceTree = "<group>"; };
+		F678ECBD1C474BEC008963F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F678EC951C474BEA008963F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECA91C474BEC008963F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECB41C474BEC008963F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F678EC8F1C474BEA008963F8 = {
+			isa = PBXGroup;
+			children = (
+				F678EC9A1C474BEB008963F8 /* AVCapture */,
+				F678ECAF1C474BEC008963F8 /* AVCaptureTests */,
+				F678ECBA1C474BEC008963F8 /* AVCaptureUITests */,
+				F678EC991C474BEA008963F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F678EC991C474BEA008963F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F678EC981C474BEA008963F8 /* AVCapture.app */,
+				F678ECAC1C474BEC008963F8 /* AVCaptureTests.xctest */,
+				F678ECB71C474BEC008963F8 /* AVCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F678EC9A1C474BEB008963F8 /* AVCapture */ = {
+			isa = PBXGroup;
+			children = (
+				F678EC9B1C474BEC008963F8 /* AppDelegate.swift */,
+				F678EC9D1C474BEC008963F8 /* ViewController.swift */,
+				F678EC9F1C474BEC008963F8 /* Main.storyboard */,
+				F678ECA21C474BEC008963F8 /* Assets.xcassets */,
+				F678ECA41C474BEC008963F8 /* LaunchScreen.storyboard */,
+				F678ECA71C474BEC008963F8 /* Info.plist */,
+			);
+			path = AVCapture;
+			sourceTree = "<group>";
+		};
+		F678ECAF1C474BEC008963F8 /* AVCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				F678ECB01C474BEC008963F8 /* AVCaptureTests.swift */,
+				F678ECB21C474BEC008963F8 /* Info.plist */,
+			);
+			path = AVCaptureTests;
+			sourceTree = "<group>";
+		};
+		F678ECBA1C474BEC008963F8 /* AVCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F678ECBB1C474BEC008963F8 /* AVCaptureUITests.swift */,
+				F678ECBD1C474BEC008963F8 /* Info.plist */,
+			);
+			path = AVCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F678EC971C474BEA008963F8 /* AVCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F678ECC01C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCapture" */;
+			buildPhases = (
+				F678EC941C474BEA008963F8 /* Sources */,
+				F678EC951C474BEA008963F8 /* Frameworks */,
+				F678EC961C474BEA008963F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVCapture;
+			productName = AVCapture;
+			productReference = F678EC981C474BEA008963F8 /* AVCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F678ECAB1C474BEC008963F8 /* AVCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F678ECC31C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCaptureTests" */;
+			buildPhases = (
+				F678ECA81C474BEC008963F8 /* Sources */,
+				F678ECA91C474BEC008963F8 /* Frameworks */,
+				F678ECAA1C474BEC008963F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F678ECAE1C474BEC008963F8 /* PBXTargetDependency */,
+			);
+			name = AVCaptureTests;
+			productName = AVCaptureTests;
+			productReference = F678ECAC1C474BEC008963F8 /* AVCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F678ECB61C474BEC008963F8 /* AVCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F678ECC61C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCaptureUITests" */;
+			buildPhases = (
+				F678ECB31C474BEC008963F8 /* Sources */,
+				F678ECB41C474BEC008963F8 /* Frameworks */,
+				F678ECB51C474BEC008963F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F678ECB91C474BEC008963F8 /* PBXTargetDependency */,
+			);
+			name = AVCaptureUITests;
+			productName = AVCaptureUITests;
+			productReference = F678ECB71C474BEC008963F8 /* AVCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F678EC901C474BEA008963F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gujianxing;
+				TargetAttributes = {
+					F678EC971C474BEA008963F8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F678ECAB1C474BEC008963F8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F678EC971C474BEA008963F8;
+					};
+					F678ECB61C474BEC008963F8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F678EC971C474BEA008963F8;
+					};
+				};
+			};
+			buildConfigurationList = F678EC931C474BEA008963F8 /* Build configuration list for PBXProject "AVCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F678EC8F1C474BEA008963F8;
+			productRefGroup = F678EC991C474BEA008963F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F678EC971C474BEA008963F8 /* AVCapture */,
+				F678ECAB1C474BEC008963F8 /* AVCaptureTests */,
+				F678ECB61C474BEC008963F8 /* AVCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F678EC961C474BEA008963F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F678ECA61C474BEC008963F8 /* LaunchScreen.storyboard in Resources */,
+				F678ECA31C474BEC008963F8 /* Assets.xcassets in Resources */,
+				F678ECA11C474BEC008963F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECAA1C474BEC008963F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECB51C474BEC008963F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F678EC941C474BEA008963F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F678EC9E1C474BEC008963F8 /* ViewController.swift in Sources */,
+				F678EC9C1C474BEC008963F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECA81C474BEC008963F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F678ECB11C474BEC008963F8 /* AVCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F678ECB31C474BEC008963F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F678ECBC1C474BEC008963F8 /* AVCaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F678ECAE1C474BEC008963F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F678EC971C474BEA008963F8 /* AVCapture */;
+			targetProxy = F678ECAD1C474BEC008963F8 /* PBXContainerItemProxy */;
+		};
+		F678ECB91C474BEC008963F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F678EC971C474BEA008963F8 /* AVCapture */;
+			targetProxy = F678ECB81C474BEC008963F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F678EC9F1C474BEC008963F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F678ECA01C474BEC008963F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F678ECA41C474BEC008963F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F678ECA51C474BEC008963F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F678ECBE1C474BEC008963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F678ECBF1C474BEC008963F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F678ECC11C474BEC008963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F678ECC21C474BEC008963F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F678ECC41C474BEC008963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVCapture.app/AVCapture";
+			};
+			name = Debug;
+		};
+		F678ECC51C474BEC008963F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVCapture.app/AVCapture";
+			};
+			name = Release;
+		};
+		F678ECC71C474BEC008963F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVCapture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F678ECC81C474BEC008963F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVCapture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F678EC931C474BEA008963F8 /* Build configuration list for PBXProject "AVCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F678ECBE1C474BEC008963F8 /* Debug */,
+				F678ECBF1C474BEC008963F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F678ECC01C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F678ECC11C474BEC008963F8 /* Debug */,
+				F678ECC21C474BEC008963F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F678ECC31C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F678ECC41C474BEC008963F8 /* Debug */,
+				F678ECC51C474BEC008963F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F678ECC61C474BEC008963F8 /* Build configuration list for PBXNativeTarget "AVCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F678ECC71C474BEC008963F8 /* Debug */,
+				F678ECC81C474BEC008963F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F678EC901C474BEA008963F8 /* Project object */;
+}
