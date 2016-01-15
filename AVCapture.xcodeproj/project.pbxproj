@@ -14,6 +14,7 @@
 		F678ECA61C474BEC008963F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F678ECA41C474BEC008963F8 /* LaunchScreen.storyboard */; };
 		F678ECB11C474BEC008963F8 /* AVCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678ECB01C474BEC008963F8 /* AVCaptureTests.swift */; };
 		F678ECBC1C474BEC008963F8 /* AVCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678ECBB1C474BEC008963F8 /* AVCaptureUITests.swift */; };
+		F678ECCA1C474C13008963F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F678ECC91C474C13008963F8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F678ECB71C474BEC008963F8 /* AVCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F678ECBB1C474BEC008963F8 /* AVCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureUITests.swift; sourceTree = "<group>"; };
 		F678ECBD1C474BEC008963F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F678ECC91C474C13008963F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F678ECCA1C474C13008963F8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		F678EC8F1C474BEA008963F8 = {
 			isa = PBXGroup;
 			children = (
+				F678ECC91C474C13008963F8 /* AVFoundation.framework */,
 				F678EC9A1C474BEB008963F8 /* AVCapture */,
 				F678ECAF1C474BEC008963F8 /* AVCaptureTests */,
 				F678ECBA1C474BEC008963F8 /* AVCaptureUITests */,
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.vsea.www.AVCapture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
